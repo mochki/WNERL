@@ -47,7 +47,7 @@ in_page = False
 printed = 0
 
 # Change this
-with open("/Users/Mohonri/Desktop/ccc.xml") as infile:
+with open("/Users/mochki/Desktop/ccc.xml") as infile:
     for line in infile:
         if in_page:
             page_text += line
